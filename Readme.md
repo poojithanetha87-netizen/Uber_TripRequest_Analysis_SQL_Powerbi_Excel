@@ -36,7 +36,7 @@ Analyzed Uber supply–demand patterns and driver utilization using SQL and Powe
 
 - Recommend solutions to maximize operational efficiency and revenue growth.
 
-'''
+
 ---
 
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
@@ -59,17 +59,17 @@ The dataset includes trip-level details such as:
 
 <h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
 
-SQL 
--Data Cleaning, Added custom columns & Aggregation
+**SQL **
+- Data Cleaning, Added custom columns & Aggregation
 
 
-Power BI 
--Dashboard & Visualization
+**Power BI **
+- Dashboard & Visualization
 
-Excel
--Visualization(based on the output of queries)
+**Excel**
+- Visualization(based on the output of queries)
 
-Github
+**Github**
 
 ---
 
@@ -103,32 +103,32 @@ Github
 <h2><a class="anchor" id="exploratory-dataanalysis"></a>Exploratory Data Analysis</h2>
 
 
-📊 Exploratory Data Analysis (EDA)
+📊 **Exploratory Data Analysis (EDA)**
 
 Performed exploratory data analysis to understand:
 
--Driver distribution across pickup points
+- Driver distribution across pickup points
 
--Weekly and daily driver working hours
+- Weekly and daily driver working hours
 
--Duration-based driver activity patterns
+- Duration-based driver activity patterns
 
--Trips completion trends (daily & weekly)
+- Trips completion trends (daily & weekly)
 
--Driver performance distribution
+- Driver performance distribution
 
 '''
 
 <h2><a class="anchor" id="key-finding"></a>Key Findings</h2>
 
-🔍 Key Business Insights
+🔍 **Key Business Insights**
 
--Identified peak demand hours and service gaps
--Detected high cancellation time windows
--Analyzed driver workload distribution
--Measured total driving hours per driver
--Highlighted rider unavailability patterns
--Identified the average number of rides required on an hourly basis to improve service availability.
+- Identified peak demand hours and service gaps
+- Detected high cancellation time windows
+- Analyzed driver workload distribution
+- Measured total driving hours per driver
+- Highlighted rider unavailability patterns
+- Identified the average number of rides required on an hourly basis to improve service availability.
 
 These insights help ride-sharing companies optimize driver allocation, balance workload distribution, reduce cancellations, and improve overall service efficiency and profitability.
 
@@ -137,18 +137,18 @@ These insights help ride-sharing companies optimize driver allocation, balance w
 
 
 ![Uber Request Analysis](Analysis.png)
--Power Bi Dashboard Shows:
-  -Supply-Demand Gap Analysis
-  -Trip Fulfillment Evaluation
-  -Geospatial Request Distribution
-  -Temporal Failure Patterns
-  -Operational Efficiency Metrics
+- **Power Bi Dashboard Shows:**
+  - Supply-Demand Gap Analysis
+  - Trip Fulfillment Evaluation
+  - Geospatial Request Distribution
+  - Temporal Failure Patterns
+  - Operational Efficiency Metrics
 ![Uber Driver Productivity overview](productivity.png) 
--Excel Dashboard Shows:
-  -Temporal Demand & Supply Alignment
-  -Driver Productivity Profiling
-  -Labor Distribution Analysis
-  -Operational Peak Identification
+- **Excel Dashboard Shows:**
+  - Temporal Demand & Supply Alignment
+  - Driver Productivity Profiling
+  - Labor Distribution Analysis
+  - Operational Peak Identification
 
 '''
 
