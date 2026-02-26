@@ -75,10 +75,10 @@ The dataset includes trip-level details such as:
 
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
 
-'''
+```
 |----Documentation
 |    |--Readme.md
-|    |--Project.doc
+|    |-Uber_TripRequest_SupplyDemand _Analysis_DOC  #Vailable in Key finding selection.
 |
 |
 |----Query Script
@@ -89,7 +89,7 @@ The dataset includes trip-level details such as:
 |    |--uberpowerbi.pbix
 |    |--uber_sql Driver Productivity.xlsx(Excel Dashboard)
 
-'''
+```
 
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
 
@@ -120,7 +120,7 @@ Performed exploratory data analysis to understand:
 
 <h2><a class="anchor" id="key-finding"></a>Key Findings</h2>
 
-🔍 **Key Business Insights**
+🔍 **Key Business Insights**-
 
 - Identified peak demand hours and service gaps
 - Detected high cancellation time windows
@@ -130,6 +130,8 @@ Performed exploratory data analysis to understand:
 - Identified the average number of rides required on an hourly basis to improve service availability.
 
 These insights help ride-sharing companies optimize driver allocation, balance workload distribution, reduce cancellations, and improve overall service efficiency and profitability.
+-  Detail Documentation of the project:
+ [Uber_TripRequest_SupplyDemand _Analysis_DOC](https://docs.google.com/document/d/1UErVKsWQIHhybE_5KP9QirKCkwzHz0lyjtUGM43lLsU/edit?tab=t.0)
 
 
 <h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
@@ -156,7 +158,18 @@ These insights help ride-sharing companies optimize driver allocation, balance w
  
   ![Uber Driver Productivity overview](productivity.png)
 
-  [Doc Link](https://docs.google.com/document/d/1UErVKsWQIHhybE_5KP9QirKCkwzHz0lyjtUGM43lLsU/edit?tab=t.0)
+  
+
+ <h2><a class="anchor" id=final-recommendations"></a>Final Recommendations</h2>
+
+ - **Final Recommendations**
+   - Hire separate drivers/rides specifically for peak-hour demand to ensure service availability and reduce customer wait time.
+   - Motivate drivers to increase the number of rides per day by offering performance-based incentives, especially during high-demand periods.   
+       
+
+ 
+
+ 
 
 '''
 
