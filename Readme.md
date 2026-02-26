@@ -24,7 +24,7 @@ Analyzed Uber supply–demand patterns and driver utilization using SQL and Powe
 ---
 
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
-'''
+
 -Identify the supply–demand gap in Uber operations.
 
 -Uncover hidden trends in ride request patterns.
