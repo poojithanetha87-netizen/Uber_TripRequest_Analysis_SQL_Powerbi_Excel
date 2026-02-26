@@ -24,17 +24,17 @@ Analyzed Uber supply–demand patterns and driver utilization using SQL and Powe
 
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
 
--Identify the supply–demand gap in Uber operations.
+- Identify the supply–demand gap in Uber operations.
 
--Uncover hidden trends in ride request patterns.
+- Uncover hidden trends in ride request patterns.
 
--Analyze driver availability and utilization patterns.
+- Analyze driver availability and utilization patterns.
 
--Detect peak-hour demand and service shortages.
+- Detect peak-hour demand and service shortages.
 
--Design optimal, data-driven strategies to improve ride fulfillment rates.
+- Design optimal, data-driven strategies to improve ride fulfillment rates.
 
--Recommend solutions to maximize operational efficiency and revenue growth.
+- Recommend solutions to maximize operational efficiency and revenue growth.
 
 '''
 ---
@@ -43,17 +43,17 @@ Analyzed Uber supply–demand patterns and driver utilization using SQL and Powe
 
 
 The dataset includes trip-level details such as:
--Request ID
+- Request ID
 
--Pickup Point
+- Pickup Point
 
--Driver ID
+- Driver ID
 
--Request Status (Completed, Cancelled, No Cars Available)
+- Request Status (Completed, Cancelled, No Cars Available)
 
--Request Timestamp
+- Request Timestamp
 
--Drop Timestamp
+- Drop Timestamp
 
 ---
 
