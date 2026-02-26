@@ -163,7 +163,7 @@ These insights help ride-sharing companies optimize driver allocation, balance w
  <h2><a class="anchor" id=final-recommendations"></a>Final Recommendations</h2>
 
  - **Final Recommendations**
-   - Hire separate drivers/rides specifically for peak-hour demand to ensure service availability and reduce customer wait time.
+   - Hire separate drivers/rides specifically for peak-hour demand to ensure service availability and reduce customer wait time.(5:00 PM- 10:00PM)
    - Motivate drivers to increase the number of rides per day by offering performance-based incentives, especially during high-demand periods.   
        
 
