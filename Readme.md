@@ -19,7 +19,6 @@ _Analyzed Uber service demand and service availability to find the strategic sol
 
 ---
 <h2><a class="anchor" id="Overview"></a>Overview</h2>
-
 Analyzed Uber supply–demand patterns and driver utilization using SQL and Power BI to identify service gaps, reduce cancellations, and optimize peak-hour driver allocation for improved operational efficiency and revenue growth.
 ---
 
@@ -36,6 +35,7 @@ Analyzed Uber supply–demand patterns and driver utilization using SQL and Powe
 -Design optimal, data-driven strategies to improve ride fulfillment rates.
 
 -Recommend solutions to maximize operational efficiency and revenue growth.
+
 '''
 ---
 
@@ -44,10 +44,15 @@ Analyzed Uber supply–demand patterns and driver utilization using SQL and Powe
 
 The dataset includes trip-level details such as:
 -Request ID
+
 -Pickup Point
+
 -Driver ID
+
 -Request Status (Completed, Cancelled, No Cars Available)
+
 -Request Timestamp
+
 -Drop Timestamp
 
 ---
