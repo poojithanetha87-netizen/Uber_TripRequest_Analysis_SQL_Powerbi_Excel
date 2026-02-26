@@ -1,11 +1,11 @@
-#Uber Supply–Demand & Driver Utilization Analysis.
+#  🧾 Uber Supply–Demand & Driver Utilization Analysis.
 
 
 _Analyzed Uber service demand and service availability to find the strategic solution to enhance the customer experience and profit of the Company using SQL , Power bi and Excel._
 
 
 
-##Table of Contents
+## 📌 Table of Contents
 - <a href="#Overview">Overview</a>
 - <a href="#business-problem">Business Problem</a>
 - <a href="#dataset">Dataset</a>
