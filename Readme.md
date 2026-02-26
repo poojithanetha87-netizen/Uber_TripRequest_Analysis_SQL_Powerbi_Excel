@@ -59,11 +59,11 @@ The dataset includes trip-level details such as:
 
 <h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
 
-**SQL **
+**SQL**
 - Data Cleaning, Added custom columns & Aggregation
 
 
-**Power BI **
+ **Power BI**
 - Dashboard & Visualization
 
 **Excel**
@@ -94,11 +94,10 @@ The dataset includes trip-level details such as:
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
 
 
--Added Week,hour and trip duration Columns.
--Executed multiple SELECT queries to generate analytical tables for deeper insights.
+- Added Week,hour and trip duration Columns.
+- Executed multiple SELECT queries to generate analytical tables for deeper insights.
 
 
-'''
 
 <h2><a class="anchor" id="exploratory-dataanalysis"></a>Exploratory Data Analysis</h2>
 
