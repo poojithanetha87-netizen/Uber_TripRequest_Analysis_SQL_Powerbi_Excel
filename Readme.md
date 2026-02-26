@@ -154,7 +154,9 @@ These insights help ride-sharing companies optimize driver allocation, balance w
   - Labor Distribution Analysis
   - Operational Peak Identification
  
-  ![Uber Driver Productivity overview](productivity.png) 
+  ![Uber Driver Productivity overview](productivity.png)
+
+  [Doc Link](https://docs.google.com/document/d/1UErVKsWQIHhybE_5KP9QirKCkwzHz0lyjtUGM43lLsU/edit?tab=t.0)
 
 '''
 
