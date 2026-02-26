@@ -116,7 +116,7 @@ Performed exploratory data analysis to understand:
 
 - Driver performance distribution
 
-'''
+
 
 <h2><a class="anchor" id="key-finding"></a>Key Findings</h2>
 
@@ -131,7 +131,7 @@ Performed exploratory data analysis to understand:
 
 These insights help ride-sharing companies optimize driver allocation, balance workload distribution, reduce cancellations, and improve overall service efficiency and profitability.
 
-'''
+
 <h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
 
 
@@ -142,7 +142,9 @@ These insights help ride-sharing companies optimize driver allocation, balance w
   - Geospatial Request Distribution
   - Temporal Failure Patterns
   - Operational Efficiency Metrics
-    ![Uber Request Analysis](Analysis.png)
+ 
+    
+  ![Uber Request Analysis](Analysis.png)
 
     
 
@@ -152,7 +154,7 @@ These insights help ride-sharing companies optimize driver allocation, balance w
   - Labor Distribution Analysis
   - Operational Peak Identification
  
-    ![Uber Driver Productivity overview](productivity.png) 
+  ![Uber Driver Productivity overview](productivity.png) 
 
 '''
 
