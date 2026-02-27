@@ -199,9 +199,13 @@ The project utilizes advanced DAX to drive dashboard visuals:
 
 
 
--Regional Sales Analysis
+- Regional Sales Analysis
 
 <img width="1514" height="739" alt="Reginal Sales Analysis" src="https://github.com/user-attachments/assets/0bb9e690-dbd8-49ed-8def-7286b5553d43" />
+
+- Sales And Performance Analysis
+  
+![Sales And Performance Analysis]("Sales and performance Analysis.png")
 
 
 
