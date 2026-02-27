@@ -6,9 +6,14 @@ _Project Goal: Developed a full-scale ETL and analytics pipeline for a global vi
 - <a href="#Overview">Overview</a>
 - <a href="#business-problem">Business Problem</a>
 - <a href="#dataset">Dataset</a>
+- <a href="#project-structure">Project Structure</a>
 - <a href="#Data-Validation--technologies">Data Validation & Cleaning</a>
 - <a href="#ETL--Database-Modeling">ETL & Database Modeling (PostgreSQL)</a>
 - <a href="#Data-Transformation--SQL-Views">Data Transformation & SQL Views</a>
+- <a href="#key-findings">Key Findings</a>
+- <a href="#power-bi--dax-metrics">Power BI & DAX Metrics</a>
+- <a href="#Tools--Technologies">Tools & Technologies</a>
+- <a href="#dashboard">Dashboard</a>
 
 
 
@@ -41,6 +46,32 @@ The project aims to analyze and visualize video game sales and engagement data t
 
 - Name, Platform, Year, Genre, Publisher, NA_Sales,
 - EU_Sales, JP_Sales , Other_Sales,Global_Sales
+
+<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
+
+```
+ Video Games Performance & Sales Analytics/
+│
+├── README.md
+├── Games.csv
+├── vgsales.csv
+│
+├── notebooks&docs                 
+│   ├── SQL.text
+│   ├──Video Game Engagement  And Sales Analysis.doc
+│   ├──Data Cleaning, Modeling &Tranformation Steps Doc.doc
+│ 
+│
+├── scripts/                    # Python scripts for ingestion and processing
+│   ├── Games.py
+│   └──heatmap.py
+│   └──vgsales.py
+│
+├── dashboard/                  # Power BI dashboard file
+│   └── "Saleand peformance.pbix"
+│   └──"VGames_project.pbix"
+│   └──"VGSpowerbi.pbix"
+```
 
 
 
@@ -101,5 +132,71 @@ The project aims to analyze and visualize video game sales and engagement data t
 
 
 **Consolidated Data View:** Built the Combine_DataSG view, which joins internal game data with external sales records based on title and publisher.
+
+<h2><a class="anchor" id="key-finding"></a>Key Business Insights</h2>
+
+💡**Key Business Insights**
+**1. Developer Impact**
+
+Top Developer: Analysis identified Nintendo as the top-performing developer studio.
+
+
+Metric: This was determined using a custom Developer Composite Score (Weighting: Rating 40%, Plays 30%, Productivity 20%, Volume 10%).
+
+**2. Rating vs. Sales Correlation**
+
+The Sweet Spot: Global sales are most concentrated in games rated between 3.5 and 4.2.
+
+
+Threshold: Sales significantly increase once a game's rating crosses 3.0.
+
+
+Diminishing Returns: Extremely high ratings (>4.5) do not automatically guarantee higher sales volume.
+
+**3.Backlog% over Wishlist**
+
+The "Paladina" Effect: Observed that low wishlist counts can inflate backlog-to-wishlist ratios (e.g., a 11x ratio due to only 16 wishlists).
+
+
+Data Integrity: Applied a minimum threshold of 100 wishlists to ensure engagement metrics remained meaningful.
+
+<h2><a class="anchor" id="Power-bi--dax-metrics"></a>Power BI & DAX Metrics</h2>
+
+**🖥 Power BI & DAX Metrics**
+
+The project utilizes advanced DAX to drive dashboard visuals:
+
+
+**Dynamic Ranking:** Used RANKX to create an Overall Developer Rank based on the weighted composite score.
+
+
+**Relationship Management:** Manually optimized table relationships in Power BI to ensure proper relationship between tables.
+
+<h2><a class="anchor" id="Tools--Technologies"></a>Tools & Technologies</h2>
+
+🧰 **Tools & Technologies**
+
+**Languages:** Python (Pandas, Psycopg2), SQL (PostgreSQL), DAX.
+
+
+
+**Database:** PostgreSQL (Relational Modeling, Views, Window Functions).
+
+
+
+**Visualization:** Power BI Desktop.
+
+
+**Environment:** VS Code.
+
+<h2><a class="anchor" id="#Dashboard"></a>Dashboard</h2>
+
+
+- VideoGames_Enagegment_Analysis
+
+ ("Games engagement Analysis.png")
+
+
+
 
 
