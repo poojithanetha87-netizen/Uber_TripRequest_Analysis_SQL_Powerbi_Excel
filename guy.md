@@ -9,13 +9,7 @@ _Project Goal: Developed a full-scale ETL and analytics pipeline for a global vi
 - <a href="#Data-Validation--technologies">Data Validation & Cleaning</a>
 
 
-- <a href="#tools--technologies">Tools & Technologies</a>
-- <a href="#project-structure">project Structure</a>
-- <a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
-- <a href="#exploratory-dataanalysis">Exploratory Data Analysis</a>
-- <a href="#key-finding">Key Findings</a>
-- <a href="#dashboard">Dashboard</a>
-- <a href="final-recommendations">Final Recommendations</a>
+
 
 
 
@@ -35,33 +29,23 @@ The project aims to analyze and visualize video game sales and engagement data t
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
 
 **Games Engagement** :contains  below data points
-Title,Release Date,Team,Rating,	Times Listed	
-Number of Reviews,Genres,Summary,Reviews,Plays,	Playing	Backlogs,Wishlist
+
+
+- Title,Release Date,Team,Rating,	Times Listed	
+- Number of Reviews,Genres,Summary,Reviews,Plays,	Playing	Backlogs,Wishlist
 
 ** VGSales**:Contains below data points 
 
-Name, Platform, Year, Genre, Publisher, NA_Sales,
-EU_Sales, JP_Sales , Other_Sales,Global_Sales
+- Name, Platform, Year, Genre, Publisher, NA_Sales,
+- EU_Sales, JP_Sales , Other_Sales,Global_Sales
 
-
-Data Validation & Cleaning (Python)---------------------------
-
-ETL & Database Modeling (PostgreSQL)----------------------
-
-Data Transformation & SQL Views------------------------
-
-Key Business Insights---------------------
-
-Power BI & DAX Metrics------------------
-
-Tools & Technologies-----------------------
 
 
 
 <h2><a class="anchor" id="Data-Validation--technologies"></a>Data Validation & Cleaning</h2>
 
 
-🧹** Data Validation & Cleaning (Python)**
+🧹 ** Data Validation & Cleaning (Python)** 
 Before analysis, the raw dataset was processed to ensure accuracy:
 
 
