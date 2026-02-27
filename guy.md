@@ -46,7 +46,8 @@ The project aims to analyze and visualize video game sales and engagement data t
 
 
 🧹 ** Data Validation & Cleaning (Python)** 
-Before analysis, the raw dataset was processed to ensure accuracy:
+
+- Before analysis, the raw dataset was processed to ensure accuracy:
 
 
 **Data Type Standardization:** Converted columns like Release_Date to datetime and standardized numeric fields such as Rating, Plays, and Wishlist.
@@ -66,7 +67,8 @@ Before analysis, the raw dataset was processed to ensure accuracy:
 <h2><a class="anchor" id="ETL--Database-Modeling (PostgreSQL)"></a>ETL & Database Modeling (PostgreSQL)</h2>
 
 
-##⚙️ **ETL & Database Modeling (PostgreSQL)**
+⚙️ **ETL & Database Modeling (PostgreSQL)**
+
 -The cleaned data was migrated to a postgresql environment:
 
 
