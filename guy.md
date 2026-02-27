@@ -7,6 +7,7 @@ _Project Goal: Developed a full-scale ETL and analytics pipeline for a global vi
 - <a href="#business-problem">Business Problem</a>
 - <a href="#dataset">Dataset</a>
 - <a href="#Data-Validation--technologies">Data Validation & Cleaning</a>
+- <a href="#ETL--Database-Modeling">ETL & Database Modeling (PostgreSQL)</a>
 
 
 
@@ -45,7 +46,7 @@ The project aims to analyze and visualize video game sales and engagement data t
 <h2><a class="anchor" id="Data-Validation--technologies"></a>Data Validation & Cleaning</h2>
 
 
-🧹 ** Data Validation & Cleaning (Python)** 
+🧹 **Data Validation & Cleaning (Python)** 
 
 - Before analysis, the raw dataset was processed to ensure accuracy:
 
@@ -69,7 +70,7 @@ The project aims to analyze and visualize video game sales and engagement data t
 
 ⚙️ **ETL & Database Modeling (PostgreSQL)**
 
--The cleaned data was migrated to a postgresql environment:
+- The cleaned data was migrated to a postgresql environment:
 
 
 **Connectivity:** Established a secure connection between VS Code and PostgreSQL using psycopg2.
