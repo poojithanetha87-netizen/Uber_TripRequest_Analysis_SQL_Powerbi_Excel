@@ -68,7 +68,7 @@ The project aims to analyze and visualize video game sales and engagement data t
 │   └──vgsales.py
 │
 ├── dashboard/                  # Power BI dashboard file
-│   └── "Saleand peformance.pbix"
+│   └── "Sale and peformance.pbix"
 │   └──"VGames_project.pbix"
 │   └──"VGSpowerbi.pbix"
 ```
@@ -136,6 +136,7 @@ The project aims to analyze and visualize video game sales and engagement data t
 <h2><a class="anchor" id="key-finding"></a>Key Business Insights</h2>
 
 💡**Key Business Insights**
+
 **1. Developer Impact**
 
 Top Developer: Analysis identified Nintendo as the top-performing developer studio.
@@ -194,7 +195,13 @@ The project utilizes advanced DAX to drive dashboard visuals:
 
 - VideoGames_Enagegment_Analysis
 
- ("Games engagement Analysis.png")
+![VideoGames_Enagegment_Analysis]("Games engagement Analysis.png")
+
+
+
+-Regional Sales Analysis
+
+!
 
 
 
