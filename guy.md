@@ -34,7 +34,7 @@ The project aims to analyze and visualize video game sales and engagement data t
 - Title,Release Date,Team,Rating,	Times Listed	
 - Number of Reviews,Genres,Summary,Reviews,Plays,	Playing	Backlogs,Wishlist
 
-** VGSales**:Contains below data points 
+**VGSales** : Contains below data points 
 
 - Name, Platform, Year, Genre, Publisher, NA_Sales,
 - EU_Sales, JP_Sales , Other_Sales,Global_Sales
@@ -66,7 +66,7 @@ Before analysis, the raw dataset was processed to ensure accuracy:
 <h2><a class="anchor" id="ETL--Database-Modeling (PostgreSQL)"></a>ETL & Database Modeling (PostgreSQL)</h2>
 
 
-⚙️ **ETL & Database Modeling (PostgreSQL)**
+##⚙️ **ETL & Database Modeling (PostgreSQL)**
 -The cleaned data was migrated to a postgresql environment:
 
 
