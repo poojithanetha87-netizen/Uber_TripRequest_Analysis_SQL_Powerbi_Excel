@@ -8,6 +8,8 @@ _Project Goal: Developed a full-scale ETL and analytics pipeline for a global vi
 - <a href="#dataset">Dataset</a>
 - <a href="#Data-Validation--technologies">Data Validation & Cleaning</a>
 - <a href="#ETL--Database-Modeling">ETL & Database Modeling (PostgreSQL)</a>
+- <a href="#Data-Transformation--SQL-Views">Data Transformation & SQL Views</a>
+
 
 
 
@@ -82,3 +84,22 @@ The project aims to analyze and visualize video game sales and engagement data t
 
 
 **Date Enhancements:** Added R_Month and R_Year columns to the database for optimized time-series analysis.
+
+<h2><a class="anchor" id="Data-Transformation--SQL-Views"></a>Data Transformation & SQL Views</h2>
+
+**🛠 Data Transformation & SQL Views**
+
+- Complex relationships were handled through advanced SQL:
+
+
+**Genre Normalization:** Created a dedicated Genre table to unnest multi-genre strings into individual categories (e.g., Action, RPG, Shooter).
+
+
+
+**Team View:** Created a Team view by normalizing the developer column, allowing for specific developer-wise performance tracking.
+
+
+
+**Consolidated Data View:** Built the Combine_DataSG view, which joins internal game data with external sales records based on title and publisher.
+
+
